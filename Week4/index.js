@@ -47,5 +47,5 @@ console.log (kelvinToCelsius)
 const kelvinToFahrenheit = ((F - 32) * 5) / 9 + 273.15
 console.log (kelvinToFahrenheit)
 
-
-
+function cube(arr) {
+    
