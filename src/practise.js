@@ -1,27 +1,4 @@
-//create a function that returns true if all parameters are truthy and false otherwise
-//0, undefined, null, nan are falsey data types
-// [5,4,3,2,1,0] -> false
-// (true, true, true) -> true
-// n number of inputs always use spread operator
-// function checkTrueOrFalse (...args){
-//     for (let i = 0; (i < Arguments.length); i++) {
-//         if arguments === true {
-//             return true
-//         } else { 
-//             return false
-//         }
-//     }
-// }
-// console.log(checkTrueOrFalse([5,4,3,2,1,0]))
 
-var arr = [
-    [1,2], [3,4], [5,6]
-  ];
-  for (var i=0; i < arr.length; i++) {
-    for (var j=0; j < arr[i].length; j++) {
-      console.log(arr[i][j]);
-    }
-  }
 
   //Create a function that takes two nested arrays and return the sum of the minimum value in each row.
 //Examples of input
