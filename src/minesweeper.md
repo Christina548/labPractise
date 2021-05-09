@@ -9,11 +9,13 @@ Minesweeper Project
 │        
 │   
 └───Identify empty spaces
-    │ 
-    │  
-    └─── Add number of mines
-    │
-    │   
-    └─── Calculate mines 
-         around empty spaces
+│   │ 
+│   │  
+│   └─── Add number of mines
+│   │
+│   │   
+│   └─── Calculate mines 
+│        around empty spaces
+│
+└───Test code
 ```
