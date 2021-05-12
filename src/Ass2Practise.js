@@ -1,3 +1,4 @@
+//first half - final 
 let input = [
     [0, 1, 0, 0],
     [0, 0, 1, 0],
@@ -5,34 +6,26 @@ let input = [
     [1, 1, 0, 0],
    ]
 const findTheMines = input.map(row => row.map(num => 
-num === 1
-? 'x'
-: 'y'
-));
-console.log(findTheMines);
+num === 1 ? 'x' : 'y'));
+//draft of second part
+const countTheMines = findTheMines.map(row => row.map(num => 
+    num === 'x' ? 'x' : [num++]));
+    console.log(findTheMines([
+            [0, 1, 0, 0],
+            [0, 0, 1, 0],
+            [0, 1, 0, 1],
+            [1, 1, 0, 0],
+           ]))
 
-function Count (arr){
-    alert(findTheMines());{
-    let newArr = []
-    for (let i = 0; i < arr.length; i++){
-        let y = arr[i][0]
-        for (let J = 0; J < arr[i].length; J++) {
-        if (arr[i]) === 'x'[i ++]; {
-            newArr.push
-}
-        }
-        }
-return newArr
-    }
-} 
-
-
-
-
-
-
-//for each loop
-// numbers.forEach(function(number) {
-//     console.log(number);
-// });
+//another draft of second part
+//     let result = []; 
+//         for (let i = 0; i < input.length; i++) {
+//             let y = input[i][0];
+//             for (let J = 0; J < input[i].length; J++) {
+//             if (input[i] === 'x') [i ++]; {
+//             [].push;
+//     }
+//     return result;
+// }
+//         }
 
