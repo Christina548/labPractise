@@ -10,15 +10,29 @@
     
 // //     return the results
 // //   }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 function game(arr) {
-    let result = [[]]
-    function findTheMines2 (arr) {
-        arr.forEach(element => {element === 1 ? 'x' : 'y'})
+    let result = arr
+    function findTheMines2 (a, b) {
+        a.forEach(element => {element === 1 ? 'x' : 'y'})
     } 
-    function neighborsCounter(arr) {
+    function neighborsCounter(a, b) {
         arr.forEach(element => {element === 'x' ? 'x' : x++})    
     }
-     return result 
+     return arr 
 }
 console.log(game([0,1,0,1]))
 
@@ -37,19 +51,27 @@ console.log(game([0,1,0,1]))
 //     [0, 1, 0, 0],
 //     [0, 0, 1, 0],
 //     [0, 1, 0, 1],
-// //     [1, 1, 0, 0],
-// //    ]
+//   [1, 1, 0, 0],
+//   ]
 // const findTheMines = input.map(row => row.map(num => 
 // num === 1 ? 'x' : 'y'));
 // findTheMines.forEach(element => {
 
 // })
-// let result = []; 
-//         for (let i = 0; i < input.length; i++) {
-//             let y = input[i][0];
-//             for (let J = 0; J < input[i].length; J++) {
-//             if (input[i] === 'x') [i ++]; {
-//             [].push;
+function game (arr) {
+    let result = [];
+    function findTheMines (arr, num)
+    for (let i = 0; i<arr.length; i++) {
+            let y = arr[i][0];
+            for (let J = 0; J <arr[i].length; J++) {
+                (num => num === 1 ? 'x' : 'y');  
+        } 
+    }  
+} 
+console.log(game([1,1,0,0]))
+//  if (arr[i] === 1); {
+  //  return 'x' 
+//      if (arr[i] === '1') [i ++];  
 //     }
 //     return result;
 // }
@@ -62,7 +84,3 @@ console.log(game([0,1,0,1]))
 //         [0, 1, 0, 1],
 //         [1, 1, 0, 0],
 //        ]]))
-
-
-
-
