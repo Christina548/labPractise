@@ -1,22 +1,25 @@
 function game (arr) {
     let result = [];
-    function findTheMines (arr, num){
-    for (let a = 0; a<arr.length; a++) {
-            let y = arr[a][0];
-            for (let J = 0; J <arr[a].length; J++) {
-             (num => num === 1 ? 'x' : 'y');  
-        } 
+    function findTheMines (array, num){
+    for (let a = 0; a<array.length; a++) {
+            // let num = array[a][0];
+            for (let J = 0; J <array[a].length; J++) {
+                if (num === 1){
+                    num = 'x'
     }
-    function checkMines (arr, num) {
-        for (let a = 0; a<arr.length; a++) {
-            let y = arr[a][0];
-            for (let J = 0; J <arr[a].length; J++) {
-                if (a[i] === 'x') [a ++]; {
+    
+    function checkForMines (arrs, number) {
+        for (let i = 0; i<arrs.length; i++) {
+            let number = arrs[i][0];
+            for (let J = 0; J <arrs[i].length; J++) {
+                if (arrs[i][0] === 'x') [number ++]; {
                     [].push;
     }
     }
     return result   
 }
+}
+    }
 }
     }
 }
